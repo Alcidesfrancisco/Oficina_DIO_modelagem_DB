@@ -25,7 +25,7 @@ create table responsavel(
 	idResponsavel int auto_increment primary key,
     setor varchar(45) not null,
     matricula varchar(15) not null,
-    cargo varchar(15) not null
+    cargo varchar(45) not null
 );
 
 -- criação da tabela pedido gerado
